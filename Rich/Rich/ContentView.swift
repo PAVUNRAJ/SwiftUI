@@ -13,11 +13,9 @@ struct ContentView: View {
             Color(.systemTeal)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Hi am rich")
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .font(.system(size: 25))
-                    .padding(30)
+                CustomText(text: "Hi am rich")
+                CustomText(text: "Hi am rich1")
+                CustomText(text: "Hi am rich2")
                 Image("diamond")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -32,5 +30,16 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
         // sudo xcodebuild -license
+    }
+}
+
+struct CustomText: View {
+    var text: String
+    var body: some View {
+        Text(text)
+            .foregroundColor(.white)
+            .fontWeight(.bold)
+            .font(.system(size: 25))
+            .padding(3)
     }
 }
