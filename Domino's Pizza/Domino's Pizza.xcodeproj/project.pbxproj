@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7B7E5A2B5D2C6100F87EBE /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7E592B5D2C6100F87EBE /* OrderItemView.swift */; };
+		EB7B7E5C2B5D4B6000F87EBE /* MenuItemTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7E5B2B5D4B6000F87EBE /* MenuItemTileView.swift */; };
+		EB7B7E5E2B5D4BB100F87EBE /* MenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7E5D2B5D4BB100F87EBE /* MenuGridView.swift */; };
+		EB7B7E602B5D555600F87EBE /* FavoriteTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7E5F2B5D555600F87EBE /* FavoriteTileView.swift */; };
+		EB7B7E622B5E879400F87EBE /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7E612B5E879400F87EBE /* OrderDetailView.swift */; };
+		EBAE9CCB2B4CD03A00056DE4 /* Domino_s_PizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CCA2B4CD03A00056DE4 /* Domino_s_PizzaApp.swift */; };
+		EBAE9CCD2B4CD03A00056DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CCC2B4CD03A00056DE4 /* ContentView.swift */; };
+		EBAE9CCF2B4CD03C00056DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAE9CCE2B4CD03C00056DE4 /* Assets.xcassets */; };
+		EBAE9CD22B4CD03C00056DE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAE9CD12B4CD03C00056DE4 /* Preview Assets.xcassets */; };
+		EBAE9CDA2B4D254900056DE4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CD92B4D254900056DE4 /* Constant.swift */; };
+		EBAE9CDC2B4D2A5600056DE4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CDB2B4D2A5600056DE4 /* MenuView.swift */; };
+		EBAE9CDE2B4D2A7000056DE4 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CDD2B4D2A7000056DE4 /* MenuItemView.swift */; };
+		EBAE9CE02B4D2A8500056DE4 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CDF2B4D2A8500056DE4 /* MenuRowView.swift */; };
+		EBAE9CE22B4D2A9200056DE4 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CE12B4D2A9200056DE4 /* OrderRowView.swift */; };
+		EBAE9CE42B4D2AA600056DE4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CE32B4D2AA600056DE4 /* HeaderView.swift */; };
+		EBAE9CE72B4D385B00056DE4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE9CE62B4D385B00056DE4 /* OrderView.swift */; };
+		EBDC54A12B4D6050000659BC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC54A02B4D6050000659BC /* RatingView.swift */; };
+		EBDC54A92B4DCC8E000659BC /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC54A52B4DCC8D000659BC /* OrderModel.swift */; };
+		EBDC54AA2B4DCC8E000659BC /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC54A62B4DCC8D000659BC /* MenuItem.swift */; };
+		EBDC54AB2B4DCC8E000659BC /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC54A72B4DCC8D000659BC /* OrderItem.swift */; };
+		EBDC54AC2B4DCC8E000659BC /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC54A82B4DCC8D000659BC /* MenuModel.swift */; };
+		EBDC54AE2B4EE9E9000659BC /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC54AD2B4EE9E9000659BC /* StatusBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB7B7E592B5D2C6100F87EBE /* OrderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		EB7B7E5B2B5D4B6000F87EBE /* MenuItemTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemTileView.swift; sourceTree = "<group>"; };
+		EB7B7E5D2B5D4BB100F87EBE /* MenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGridView.swift; sourceTree = "<group>"; };
+		EB7B7E5F2B5D555600F87EBE /* FavoriteTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTileView.swift; sourceTree = "<group>"; };
+		EB7B7E612B5E879400F87EBE /* OrderDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		EBAE9CC72B4CD03A00056DE4 /* Domino's Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domino's Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAE9CCA2B4CD03A00056DE4 /* Domino_s_PizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domino_s_PizzaApp.swift; sourceTree = "<group>"; };
+		EBAE9CCC2B4CD03A00056DE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBAE9CCE2B4CD03C00056DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAE9CD12B4CD03C00056DE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBAE9CD92B4D254900056DE4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EBAE9CDB2B4D2A5600056DE4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EBAE9CDD2B4D2A7000056DE4 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		EBAE9CDF2B4D2A8500056DE4 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		EBAE9CE12B4D2A9200056DE4 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		EBAE9CE32B4D2AA600056DE4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EBAE9CE62B4D385B00056DE4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		EBDC54A02B4D6050000659BC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		EBDC54A52B4DCC8D000659BC /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		EBDC54A62B4DCC8D000659BC /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		EBDC54A72B4DCC8D000659BC /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		EBDC54A82B4DCC8D000659BC /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		EBDC54AD2B4EE9E9000659BC /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAE9CC42B4CD03A00056DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBAE9CBE2B4CD03A00056DE4 = {
+			isa = PBXGroup;
+			children = (
+				EBAE9CC92B4CD03A00056DE4 /* Domino's Pizza */,
+				EBAE9CC82B4CD03A00056DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAE9CC82B4CD03A00056DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE9CC72B4CD03A00056DE4 /* Domino's Pizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAE9CC92B4CD03A00056DE4 /* Domino's Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				EBDC54A42B4DCC8D000659BC /* Model Code */,
+				EBAE9CE52B4D2AB400056DE4 /* Menu */,
+				EBAE9CD82B4D253A00056DE4 /* SupportingFile */,
+				EBAE9CCA2B4CD03A00056DE4 /* Domino_s_PizzaApp.swift */,
+				EBAE9CCE2B4CD03C00056DE4 /* Assets.xcassets */,
+				EBAE9CD02B4CD03C00056DE4 /* Preview Content */,
+			);
+			path = "Domino's Pizza";
+			sourceTree = "<group>";
+		};
+		EBAE9CD02B4CD03C00056DE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE9CD12B4CD03C00056DE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBAE9CD82B4D253A00056DE4 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE9CD92B4D254900056DE4 /* Constant.swift */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		EBAE9CE52B4D2AB400056DE4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EB7B7E612B5E879400F87EBE /* OrderDetailView.swift */,
+				EB7B7E5F2B5D555600F87EBE /* FavoriteTileView.swift */,
+				EB7B7E5B2B5D4B6000F87EBE /* MenuItemTileView.swift */,
+				EBAE9CDB2B4D2A5600056DE4 /* MenuView.swift */,
+				EBAE9CDD2B4D2A7000056DE4 /* MenuItemView.swift */,
+				EBAE9CDF2B4D2A8500056DE4 /* MenuRowView.swift */,
+				EBAE9CE12B4D2A9200056DE4 /* OrderRowView.swift */,
+				EBAE9CE32B4D2AA600056DE4 /* HeaderView.swift */,
+				EBAE9CE62B4D385B00056DE4 /* OrderView.swift */,
+				EBDC54A02B4D6050000659BC /* RatingView.swift */,
+				EBDC54AD2B4EE9E9000659BC /* StatusBar.swift */,
+				EB7B7E592B5D2C6100F87EBE /* OrderItemView.swift */,
+				EB7B7E5D2B5D4BB100F87EBE /* MenuGridView.swift */,
+				EBAE9CCC2B4CD03A00056DE4 /* ContentView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EBDC54A42B4DCC8D000659BC /* Model Code */ = {
+			isa = PBXGroup;
+			children = (
+				EBDC54A52B4DCC8D000659BC /* OrderModel.swift */,
+				EBDC54A62B4DCC8D000659BC /* MenuItem.swift */,
+				EBDC54A72B4DCC8D000659BC /* OrderItem.swift */,
+				EBDC54A82B4DCC8D000659BC /* MenuModel.swift */,
+			);
+			path = "Model Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAE9CC62B4CD03A00056DE4 /* Domino's Pizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAE9CD52B4CD03C00056DE4 /* Build configuration list for PBXNativeTarget "Domino's Pizza" */;
+			buildPhases = (
+				EBAE9CC32B4CD03A00056DE4 /* Sources */,
+				EBAE9CC42B4CD03A00056DE4 /* Frameworks */,
+				EBAE9CC52B4CD03A00056DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Domino's Pizza";
+			productName = "Domino's Pizza";
+			productReference = EBAE9CC72B4CD03A00056DE4 /* Domino's Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAE9CBF2B4CD03A00056DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EBAE9CC62B4CD03A00056DE4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = EBAE9CC22B4CD03A00056DE4 /* Build configuration list for PBXProject "Domino's Pizza" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAE9CBE2B4CD03A00056DE4;
+			productRefGroup = EBAE9CC82B4CD03A00056DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAE9CC62B4CD03A00056DE4 /* Domino's Pizza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAE9CC52B4CD03A00056DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAE9CD22B4CD03C00056DE4 /* Preview Assets.xcassets in Resources */,
+				EBAE9CCF2B4CD03C00056DE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAE9CC32B4CD03A00056DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAE9CCD2B4CD03A00056DE4 /* ContentView.swift in Sources */,
+				EB7B7E5E2B5D4BB100F87EBE /* MenuGridView.swift in Sources */,
+				EBAE9CDC2B4D2A5600056DE4 /* MenuView.swift in Sources */,
+				EBAE9CCB2B4CD03A00056DE4 /* Domino_s_PizzaApp.swift in Sources */,
+				EBDC54AE2B4EE9E9000659BC /* StatusBar.swift in Sources */,
+				EB7B7E5A2B5D2C6100F87EBE /* OrderItemView.swift in Sources */,
+				EBDC54A12B4D6050000659BC /* RatingView.swift in Sources */,
+				EBDC54AB2B4DCC8E000659BC /* OrderItem.swift in Sources */,
+				EB7B7E5C2B5D4B6000F87EBE /* MenuItemTileView.swift in Sources */,
+				EBAE9CDA2B4D254900056DE4 /* Constant.swift in Sources */,
+				EBAE9CE02B4D2A8500056DE4 /* MenuRowView.swift in Sources */,
+				EBAE9CE22B4D2A9200056DE4 /* OrderRowView.swift in Sources */,
+				EB7B7E602B5D555600F87EBE /* FavoriteTileView.swift in Sources */,
+				EBAE9CE72B4D385B00056DE4 /* OrderView.swift in Sources */,
+				EB7B7E622B5E879400F87EBE /* OrderDetailView.swift in Sources */,
+				EBAE9CDE2B4D2A7000056DE4 /* MenuItemView.swift in Sources */,
+				EBDC54AC2B4DCC8E000659BC /* MenuModel.swift in Sources */,
+				EBDC54AA2B4DCC8E000659BC /* MenuItem.swift in Sources */,
+				EBDC54A92B4DCC8E000659BC /* OrderModel.swift in Sources */,
+				EBAE9CE42B4D2AA600056DE4 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBAE9CD32B4CD03C00056DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBAE9CD42B4CD03C00056DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAE9CD62B4CD03C00056DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Domino's Pizza/Preview Content\"";
+				DEVELOPMENT_TEAM = 6928FDVVW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyboard.Domino-s-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAE9CD72B4CD03C00056DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Domino's Pizza/Preview Content\"";
+				DEVELOPMENT_TEAM = 6928FDVVW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyboard.Domino-s-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAE9CC22B4CD03A00056DE4 /* Build configuration list for PBXProject "Domino's Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAE9CD32B4CD03C00056DE4 /* Debug */,
+				EBAE9CD42B4CD03C00056DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAE9CD52B4CD03C00056DE4 /* Build configuration list for PBXNativeTarget "Domino's Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAE9CD62B4CD03C00056DE4 /* Debug */,
+				EBAE9CD72B4CD03C00056DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAE9CBF2B4CD03A00056DE4 /* Project object */;
+}

@@ -62,9 +62,9 @@
 				EB108A3E2B3F002B0090397B /* Model */,
 				EB108A302B3EF99D0090397B /* Networking_SwiftUIApp.swift */,
 				EB108A322B3EF99D0090397B /* ContentView.swift */,
+				EB108A472B3F29520090397B /* DetailView.swift */,
 				EB108A342B3EF99F0090397B /* Assets.xcassets */,
 				EB108A362B3EF99F0090397B /* Preview Content */,
-				EB108A472B3F29520090397B /* DetailView.swift */,
 			);
 			path = "Networking-SwiftUI";
 			sourceTree = "<group>";

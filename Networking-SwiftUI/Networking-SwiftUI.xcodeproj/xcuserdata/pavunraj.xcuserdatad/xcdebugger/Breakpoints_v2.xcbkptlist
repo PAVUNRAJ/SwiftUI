@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "50C8C76F-C8DF-40C9-AA18-82825A1F6FC9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97AF486D-4E69-431B-896D-B23CCC198FAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking-SwiftUI/Model/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "parseJSON(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97AF486D-4E69-431B-896D-B23CCC198FAF - 5098dc60e5a02848"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Networking_SwiftUI.NetworkManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Networking_SwiftUI.NewsModel&gt;"
+                  moduleName = "Networking-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavunraj/Documents/My%20Apps/SwiftUI/Networking-SwiftUI/Networking-SwiftUI/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "3028">
+               </Location>
+               <Location
+                  uuid = "97AF486D-4E69-431B-896D-B23CCC198FAF - 5098dc60e5a02848"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Networking_SwiftUI.NetworkManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Networking_SwiftUI.NewsModel&gt;"
+                  moduleName = "Networking-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavunraj/Documents/My%20Apps/SwiftUI/Networking-SwiftUI/Networking-SwiftUI/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "97AF486D-4E69-431B-896D-B23CCC198FAF - 5098dc60e5a02848"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Networking_SwiftUI.NetworkManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Networking_SwiftUI.NewsModel&gt;"
+                  moduleName = "Networking-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavunraj/Documents/My%20Apps/SwiftUI/Networking-SwiftUI/Networking-SwiftUI/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DF23097-5373-4B3B-8BEF-D8D71F6A6857"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking-SwiftUI/Model/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "parseJSON(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DF23097-5373-4B3B-8BEF-D8D71F6A6857 - 5098dc60e5a0286f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Networking_SwiftUI.NetworkManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Networking_SwiftUI.NewsModel&gt;"
+                  moduleName = "Networking-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavunraj/Documents/My%20Apps/SwiftUI/Networking-SwiftUI/Networking-SwiftUI/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "3124">
+               </Location>
+               <Location
+                  uuid = "9DF23097-5373-4B3B-8BEF-D8D71F6A6857 - 5098dc60e5a02940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Networking_SwiftUI.NetworkManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Networking_SwiftUI.NewsModel&gt;"
+                  moduleName = "Networking-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavunraj/Documents/My%20Apps/SwiftUI/Networking-SwiftUI/Networking-SwiftUI/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E38D888-BE14-462B-951D-3AD8A7B35845"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking-SwiftUI/Model/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "parseJSON(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
